@@ -1,0 +1,34 @@
+{
+    "name": "fortressapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node server",
+        "dev": "cross-env NODE_ENV=development nodemon server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.20.0",
+        "cloudinary": "^1.30.0",
+        "connect-mongo": "^4.6.0",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "datauri": "^4.1.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "fs": "^0.0.1-security",
+        "jwt-simple": "^0.5.6",
+        "mongoose": "^6.4.1",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "multer-storage-cloudinary": "^4.0.0",
+        "nodemailer": "^6.7.6",
+        "nodemon": "^2.0.18",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.0"
+    }
+}
